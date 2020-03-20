@@ -1,0 +1,7 @@
+#increment word
+
+word = input('Enter a string >>>')
+rev_string = ''
+for char in word:
+    rev_string = rev_string + char
+    print(rev_string)
