@@ -1,0 +1,9 @@
+#priting tables
+
+for i in range(1,16):
+    print('--------------')
+    print()
+    print(f'this is {i} table')
+    print()
+    for j in range(1,15):
+        print(f'{i} x {i} = {j*i}')
