@@ -1,0 +1,9 @@
+# caesar cipher
+word = 'abcdefghijklmnopqrstuvwxyz'
+value = 'world'
+output = ''
+for char in value:
+    word_position = word.find(char)
+    output = output + word[word_position + 3]
+print(output)
+    
